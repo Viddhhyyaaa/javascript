@@ -1,0 +1,12 @@
+//dates
+let mydate= new Date()
+// console.log(mydate.toString())
+// console.log(mydate.toISOString())
+// console.log(mydate.toJSON())
+// console.log(mydate.toLocaleString())
+let cdate= new Date(2025, 3,5,19,26,4)
+console.log(cdate.toLocaleString())
+console.log(cdate.getTime())
+let ts= Date.now()
+console.log(ts)
+console. log(Math.floor(Date.now()/1000))
