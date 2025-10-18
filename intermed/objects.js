@@ -1,12 +1,12 @@
 //object 
-const jsuser={
-    name: "vidhya",
-    age: 18,
-    location: "noida",
-    email: "raividhya12@gmail.com",
-    isloggedin: false,
-    lastlogindays: ["monday", "saturday"]
-}
+// const jsuser={
+//     name: "vidhya",
+//     age: 18,
+//     location: "noida",
+//     email: "raividhya12@gmail.com",
+//     isloggedin: false,
+//     lastlogindays: ["monday", "saturday"]
+// }
 
 // console.log(jsuser.email)
 // console.log(jsuser["email"])
@@ -16,3 +16,9 @@ const jsuser={
 //  jsuser.email= "vidhyaaaa@gmail.com"
 //  Object.freeze(jsuser)
 //  console.log(jsuser)
+// const course={
+//     coursenamw: "js",
+//     price: "999",
+//     courseinst: "vidhya"
+// }
+// console.log(course.courseinst)
