@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <div>
+        <ul id="image">
+            <li><img width= "200px"src= "https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg" ></li>
+            <li>  <img width= "200px"src="https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg"></li>
+            <li>   <img width= "200px"id ="travelll" src="https://images.pexels.com/photos/2265876/pexels-photo-2265876.jpeg"></li>  
+           
+            <li><a style="color:aliceblue" href="https://google.com" id="google">Google</a></li>          
+        </ul>
+    </div>
+ </body>
+ <script>
+    // document.getElementById('travelll').onclick=function(){
+    //     alert("boat photo clicked")
+    // }
+    //onclick doesnt gives much features and option so using eventlistener is a better approach
+   //  document.getElementById('travelll').addEventListener('click', function(e){
+   //    console.log(e);
+   //  },false) 
+   //  document.getElementById()
+   //  //clientX, clientY, currenttarget, screenX, screenY, altkey, ctrlkey, shiftkey, keycode 
+   //  //type, timestamp, defaultprevented,target, toelement, srcElement
+   //  document.getElementById('google').addEventListener('click'
+   //    ,function(e){
+        
+   //       e.preventDefault()
+   //        console.log("google click");
+   //    },false)
+    document.querySelector('#image').addEventListener(
+      'click', function(e){
+         console.log(e.target);
+
+      }
+    )
+  </script>
+ </html>
